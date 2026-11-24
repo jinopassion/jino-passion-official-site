@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f6f2" />
+    <meta name="description" content="合同会社JINO PASSION。Beauty Beyond Borders. 美しさに、境界線はいらない。" />
+    <title>JINO PASSION｜美しさに、境界線はいらない。</title>
+    <link rel="icon" type="image/png" href="assets/emblem.png" />
+    <link rel="preload" as="image" href="assets/hero-editorial.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="wordmark" href="#top" aria-label="JINO PASSION トップへ"><img src="assets/emblem.png" alt="" width="540" height="862" /> <span>JINO PASSION</span></a>
+        <nav class="desktop-nav" aria-label="メインナビゲーション">
+          <a href="#philosophy">企業理念</a>
+          <a href="#service">訪問美容</a>
+          <a href="#pricing" data-open-pricing>料金</a>
+          <a href="#vision">私たちの想い</a>
+          <a href="#contact">お問い合わせ</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="メニューを開く">
+          <span></span><span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="モバイルナビゲーション" hidden>
+        <a href="#philosophy">企業理念</a>
+        <a href="#service">訪問美容</a>
+        <a href="#pricing" data-open-pricing>料金</a>
+        <a href="#vision">私たちの想い</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow">JINO PASSION <span class="eyebrow-rule"></span> VISITING BEAUTY</p>
+          <h1 id="hero-title">美しさに、<br />境界線はいらない。</h1>
+          <p class="hero-english" lang="en">Beauty Beyond Borders.</p>
+          <p class="hero-description">年齢も、身体の状態も、暮らす場所も。<br class="desktop-only" />一人ひとりが美容を楽しめる未来へ。</p>
+          <a class="outline-link" href="#philosophy">私たちの理念を知る</a>
+        </div>
+        <div class="hero-art">
+          <img src="assets/hero-editorial.jpg" alt="髪を整える手元を描いたコンセプトビジュアル" width="1024" height="1536" />
+          <p class="hero-art-caption">BEAUTY, FOR EVERYONE.</p>
+        </div>
+      </section>
+
+      <section class="intro section-wrap" id="philosophy" aria-labelledby="philosophy-title">
+        <div class="section-kicker reveal"><span class="kicker-line"></span> OUR PHILOSOPHY</div>
+        <div class="intro-grid">
+          <h2 id="philosophy-title" class="reveal">美しさは、<br />誰のものでもある。</h2>
+          <div class="intro-body reveal">
+            <p>美容室に足を運べる人だけでなく、さまざまな理由で美容サービスを受けることが難しい人にも、美容の価値を届けたい。</p>
+            <p>私たちは、年齢や身体の状態、生活環境、国籍、住む場所にとらわれず、誰もが美容を楽しめる社会を目指します。</p>
+            <p class="intro-signature" lang="en">Beauty Beyond Borders.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement" aria-label="ブランドコンセプト">
+        <div class="statement-inner reveal">
+          <p class="section-kicker">OUR CONCEPT</p>
+          <p class="statement-main">上質な美容を、<br />すべての人の日常に。</p>
+          <p class="statement-sub">美しさを楽しむ機会を、もっと自由に、もっと身近に。</p>
+        </div>
+      </section>
+
+      <section class="service" id="service" aria-labelledby="service-title">
+        <div class="service-photo reveal">
+          <img src="assets/service-editorial.jpg" alt="はさみとくし、リネンを並べたコンセプトビジュアル" width="1536" height="1024" loading="lazy" />
+        </div>
+        <div class="service-copy reveal">
+          <p class="section-kicker">OUR SERVICE</p>
+          <p class="section-index">VISITING BEAUTY</p>
+          <h2 id="service-title">美容が、<br />あなたのいる場所へ。</h2>
+          <p>外出が難しいときにも、美容を楽しむ選択肢を。JINO PASSIONは、訪問美容を通じて、美容へのアクセスを広げることを目指しています。</p>
+          <p class="service-note">施設向けと個人宅向け、それぞれの施術内容と料金をご案内しています。</p>
+          <div class="service-actions">
+            <a class="outline-link" href="#pricing" data-open-pricing>料金を見る</a>
+            <a class="service-contact-link" href="#contact">サービスについて相談する</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing section-wrap" id="pricing" aria-labelledby="pricing-title">
+        <div class="pricing-heading reveal">
+          <p class="section-kicker"><span class="kicker-line"></span> MENU &amp; PRICE</p>
+          <h2 id="pricing-title">施術メニュー・料金</h2>
+          <p>施設向け・個人宅向けの料金をご案内します。</p>
+        </div>
+        <div class="pricing-switch reveal" role="group" aria-label="料金の対象を選択">
+          <button type="button" class="pricing-switch-button is-active" data-pricing-target="facility" aria-pressed="true" aria-controls="pricing-facility">施設向け料金を見る</button>
+          <button type="button" class="pricing-switch-button" data-pricing-target="home" aria-pressed="false" aria-controls="pricing-home">個人宅向け料金を見る</button>
+        </div>
+        <details class="pricing-details reveal" id="pricing-list">
+          <summary><span><span class="pricing-label-closed">料金を表示する</span><span class="pricing-label-open">料金を閉じる</span></span><span class="pricing-toggle-icon" aria-hidden="true"></span></summary>
+          <div class="pricing-content">
+            <div class="pricing-panel" id="pricing-facility" data-pricing-panel="facility">
+              <div class="pricing-panel-heading"><h3>施設向け</h3><p>介護施設・高齢者住宅</p></div>
+              <p class="pricing-tax">税込価格 <span aria-hidden="true">/</span> 出張費無料</p>
+              <div class="pricing-row">
+                <div><h4>カット・ブロー</h4><p>カット、ブロー、お顔の産毛剃り、眉の整え</p></div>
+                <p class="pricing-amount">¥1,600</p>
+              </div>
+              <div class="pricing-row">
+                <div><h4>シャンプー・スパ・ブロー</h4><p>シャンプー、スパ、ブロー、お顔の産毛剃り、眉の整え</p></div>
+                <p class="pricing-amount">¥2,200</p>
+              </div>
+              <div class="pricing-row">
+                <div><h4>カット・カラー・シャンプー・ブロー</h4><p>カット、カラー、シャンプー、ブロー、お顔の産毛剃り、眉の整え</p></div>
+                <p class="pricing-amount">¥6,600</p>
+              </div>
+              <div class="pricing-row">
+                <div><h4>カット・パーマ・ブロー</h4><p>カット、パーマ、ブロー、お顔の産毛剃り、眉の整え</p></div>
+                <p class="pricing-amount">¥8,600</p>
+              </div>
+              <div class="pricing-options">
+                <h4>追加オプション</h4>
+                <div><span>トリートメント <small>各メニューに追加できます</small></span><strong>+¥2,000</strong></div>
+                <div><span>ロング料金（肩下）</span><strong>+¥1,000</strong></div>
+              </div>
+              <div class="pricing-notes">
+                <p>訪問は原則5名さま以上。10名さま以上の団体施術にも対応可能です。</p>
+                <p>カラー・パーマは髪の状態を確認のうえ施術します。</p>
+              </div>
+              <a class="outline-link" href="#contact">施設向け料金について相談する</a>
+            </div>
+            <div class="pricing-panel" id="pricing-home" data-pricing-panel="home" hidden>
+              <div class="pricing-panel-heading"><h3>個人宅向け</h3><p>ご自宅への訪問美容</p></div>
+              <div class="pricing-row">
+                <div><h4>カット</h4><p>カット・ブロー、お顔の産毛ケア・眉のお手入れ</p></div>
+                <p class="pricing-amount">¥3,200</p>
+              </div>
+              <div class="pricing-row">
+                <div><h4>スパシャンプー</h4><p>シャンプー・ヘッドスパ・ブロー、お顔の産毛ケア・眉のお手入れ</p></div>
+                <p class="pricing-amount">¥4,200</p>
+              </div>
+              <div class="pricing-row">
+                <div><h4>カット＆カラー</h4><p>カット・カラー・シャンプー・ブロー、お顔の産毛ケア・眉のお手入れ</p></div>
+                <p class="pricing-amount">¥10,200</p>
+              </div>
+              <div class="pricing-row">
+                <div><h4>カット＆パーマ</h4><p>カット・パーマ・ブロー、お顔の産毛ケア・眉のお手入れ</p></div>
+                <p class="pricing-amount">¥12,800</p>
+              </div>
+              <div class="pricing-options">
+                <h4>追加オプション</h4>
+                <div><span>トリートメント <small>髪に潤いを与え、指通りの良い艶やかな髪へ導きます。</small></span><strong>+¥2,000</strong></div>
+                <div><span>ロング料金（肩下）</span><strong>+¥1,000</strong></div>
+              </div>
+              <div class="pricing-notes">
+                <p>お客様の身体の状態に合わせて、施術内容を調整させていただく場合がございます。</p>
+              </div>
+              <a class="outline-link" href="#contact">個人宅向け料金について相談する</a>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="vision section-wrap" id="vision" aria-labelledby="vision-title">
+        <div class="section-kicker reveal"><span class="kicker-line"></span> OUR VISION</div>
+        <div class="vision-grid">
+          <div class="reveal">
+            <p class="vision-english" lang="en">A more open<br />future of beauty.</p>
+          </div>
+          <div class="vision-body reveal">
+            <h2 id="vision-title">美容へのアクセスを、<br />変えていく。</h2>
+            <p>確かな技術と、洗練されたサービス、安心できる品質を。すべての人に上質な美容体験を、シンプルで分かりやすく届けることを目指します。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner reveal">
+          <p class="section-kicker">CONTACT</p>
+          <h2 id="contact-title">美しさの、その先へ。</h2>
+          <p class="contact-lead">サービスに関するご相談は、公式LINE・お電話・メールから。</p>
+          <div class="contact-methods">
+            <div class="contact-method contact-method-line">
+              <p class="contact-method-label">OFFICIAL LINE</p>
+              <h3>公式LINE</h3>
+              <img class="line-qr" src="assets/line-official-qr.png" alt="JINO PASSION公式LINEの友だち追加用QRコード" width="540" height="540" loading="lazy" />
+              <p class="contact-method-note">QRコードを読み取って友だち追加</p>
+              <a class="line-button" href="https://lin.ee/Sv0eDUF" target="_blank" rel="noopener noreferrer">公式LINEを開く</a>
+            </div>
+            <div class="contact-method contact-method-phone">
+              <p class="contact-method-label">PHONE</p>
+              <h3>お電話</h3>
+              <a class="contact-phone" href="tel:08083520354" aria-label="080-8352-0354 に電話する">080-8352-0354</a>
+            </div>
+          </div>
+          <div class="contact-email">
+            <div><p class="contact-method-label">EMAIL</p><h3>メール</h3></div>
+            <a href="mailto:jinopassion.office@gmail.com" aria-label="jinopassion.office@gmail.com にメールを送る">jinopassion.office@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <a class="wordmark footer-wordmark" href="#top"><img src="assets/emblem.png" alt="" width="540" height="862" /> <span>JINO PASSION</span></a>
+        <p>合同会社JINO PASSION</p>
+      </div>
+      <div class="footer-bottom">
+        <span>Beauty Beyond Borders.</span>
+        <span>© <span id="year">2026</span> JINO PASSION</span>
+      </div>
+    </footer>
+  </body>
+</html>
